@@ -40,7 +40,7 @@ export default function Home (){
   }, [sdkReady])
 
   // Handle the event when a pickup point is chosen
-  const handlePickupsAfterChosen = (e: any) => {
+  const handlePickupsAfterChosen = (e: any) => { // eslint-disable-line
     const pointDetails = e.detail
     console.log('Selected Pickup Point Details:', pointDetails)
   }
